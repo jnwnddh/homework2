@@ -1,0 +1,49 @@
+.header {
+  align-items: center;
+  border: 1px solid #ddd;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.layout {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 800px;
+}
+
+.add-form,
+.input-group {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.add-form {
+  background-image: url("https://i.esdrop.com/d/f/GYVxSLda8V/FHdpGMcfQ7.jpg");
+  border-radius: 12px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.add-form .input-group {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  border-radius: 20%;
+  color: white;
+}
+
+.cards-wrap {
+  margin-top: 20px;
+}
+
+.detail-box {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
